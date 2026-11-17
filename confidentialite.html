@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Politique de confidentialité – Cesson'App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="logo" href="./">Cesson<span>'App</span></a>
+  <nav><a href="./">Accueil</a><a href="conditions.html">Conditions</a></nav>
+</header>
+<h1>Politique de confidentialité</h1>
+<p class="muted">S'applique à l'application Android Cesson'App (<code>com.yogistudio.cesson</code>), éditée par Yogi Studio.
+Dernière mise à jour : 17 novembre 2026.</p>
+
+<div class="card">
+  <strong>En bref :</strong> Cesson'App n'a ni compte, ni publicité, ni traceur, ni mesure d'audience. Yogi Studio ne
+  collecte aucune donnée sur vous. L'application télécharge des fichiers de données publiques, les mêmes pour tout le
+  monde, sans identifiant. Vos réglages et votre position restent sur votre téléphone.
+</div>
+
+<h2>1. Responsable</h2>
+<p>Cesson'App est éditée par Yogi Studio, développeur indépendant établi en France.
+Contact : <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>.</p>
+
+<h2>2. Données collectées par Yogi Studio</h2>
+<p><strong>Aucune.</strong> Pas de compte, pas d'identifiant de l'appareil ou de l'utilisateur, pas d'identifiant
+publicitaire, pas de statistiques d'utilisation, pas de rapport de plantage. L'application ne contient aucune bibliothèque
+de publicité, de mesure d'audience, d'attribution ni de suivi des plantages, et n'utilise pas les services Google Play
+(Firebase, localisation Google…).</p>
+
+<h2>3. Connexions de l'application</h2>
+<p>Pour afficher les informations, l'application se connecte uniquement, en HTTPS :</p>
+<ul>
+  <li><strong>au serveur de données de l'app</strong> (<code>cesson-pi.tail7e6f0d.ts.net</code>), exploité par Yogi Studio :
+      il publie les fichiers de données (horaires, Vilaine, météo, collecte, accessibilité…) et relaie les tuiles de la carte
+      d'OpenStreetMap, pour qu'OpenStreetMap ne voie pas les utilisateurs. Les requêtes ne contiennent aucun identifiant :
+      seulement le nom du fichier ou de la tuile demandés. Le serveur ne tient <strong>aucun journal des requêtes</strong>.
+      Il est rendu accessible sur Internet par le service Tailscale Funnel : comme tout intermédiaire réseau, Tailscale voit
+      passer l'adresse IP de connexion, mais pas le contenu, chiffré de bout en bout jusqu'au serveur ;</li>
+  <li><strong>au portail open data de STAR</strong> (<code>data.explore.star.fr</code>, réseau de transports de Rennes
+      Métropole), pour les prochains passages du métro et des bus et l'occupation du parc relais : seuls le nom de l'arrêt
+      ou du parc demandé et l'adresse IP du téléphone lui parviennent, comme pour toute consultation d'un site web.</li>
+</ul>
+<p>Les liens de l'application (site de la ville, Vigicrues, billetterie, fiches acceslibre…) s'ouvrent dans votre
+navigateur ou dans l'application concernée, qui appliquent alors leurs propres règles de confidentialité.</p>
+
+<h2>4. Votre position</h2>
+<p>La position n'est demandée que si vous touchez « Les plus proches de moi » ou « Me localiser » sur la carte, et
+seulement avec votre accord (autorisation Android de localisation, approximative ou précise). Elle sert uniquement à
+trier des listes (défibrillateurs, bornes, lieux…) et à centrer la carte, <strong>sur le téléphone</strong> : elle n'est
+jamais envoyée, ni enregistrée au-delà de l'utilisation en cours. Elle est obtenue par le service de localisation
+d'Android, sans passer par Google.</p>
+
+<h2>5. Données enregistrées sur votre téléphone</h2>
+<ul>
+  <li>vos réglages : cartes affichées et leur ordre, cartes compactes ou détaillées, arrêt de bus, ligne préférée,
+      carburant suivi, équipements suivis, rappels et alertes activés et leurs seuils ;</li>
+  <li>une copie des dernières données publiques reçues, pour un affichage rapide et hors connexion.</li>
+</ul>
+<p>Les réglages peuvent suivre la sauvegarde Android de votre compte Google, si vous l'avez activée, pour être retrouvés
+sur un nouveau téléphone ; la copie des données publiques en est exclue. Tout est supprimé en désinstallant l'application,
+ou depuis les paramètres Android (Applications › Cesson'App › Stockage › Effacer les données).</p>
+
+<h2>6. Notifications</h2>
+<p>Les rappels de collecte, alertes de passage du bus, alertes pollens, épisodes de pollution et vigilance météo sont
+calculés <strong>sur le téléphone</strong>, à partir des données publiques téléchargées. Aucun service de notification
+en ligne n'est utilisé et aucun jeton de notification n'est créé. L'autorisation Android des notifications est facultative.</p>
+
+<h2>7. Ce que vous choisissez d'envoyer</h2>
+<p>« Vos idées / signaler une erreur » ouvre votre propre messagerie avec un message pré-rempli, que vous relisez et
+envoyez vous-même. Yogi Studio ne reçoit que ce que vous envoyez, et ne l'utilise que pour vous répondre et améliorer
+l'application.</p>
+
+<h2>8. Autorisations</h2>
+<ul>
+  <li><strong>Internet</strong> : pour télécharger les données publiques (voir § 3) ;</li>
+  <li><strong>Localisation</strong> (facultative) : pour trier les lieux par distance et centrer la carte (voir § 4) ;</li>
+  <li><strong>Notifications</strong> (facultatives) : pour les rappels et alertes que vous activez (voir § 6).</li>
+</ul>
+<p>L'application ne demande jamais vos contacts, l'appareil photo, le micro ni vos fichiers.</p>
+
+<h2>9. Google Play</h2>
+<p>L'application est distribuée par Google Play. Google peut traiter des données sur les installations et la stabilité
+de l'application selon sa propre politique de confidentialité
+(<a href="https://policies.google.com/privacy?hl=fr">policies.google.com/privacy</a>). Yogi Studio ne voit que les
+statistiques agrégées fournies par la Play Console.</p>
+
+<h2>10. Enfants</h2>
+<p>Cesson'App s'adresse à tous les habitants. Elle ne cible pas spécifiquement les enfants et ne collecte aucune donnée,
+quel que soit l'âge de l'utilisateur.</p>
+
+<h2>11. Vos droits</h2>
+<p>Yogi Studio ne détenant aucune donnée sur vous, vos données restent sous votre contrôle sur votre téléphone. Pour
+toute question : <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>. Vous pouvez aussi adresser une
+réclamation à la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+
+<h2>12. Modifications</h2>
+<p>Si l'application traite un jour les données autrement (par exemple avec des notifications envoyées par le serveur pour
+les crues), cette politique sera mise à jour avant la sortie de cette version, et la date ci-dessus changera.</p>
+<footer>Cesson'App · Yogi Studio · <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a><br>
+Application non officielle : elle n'est éditée ni par la Ville de Cesson-Sévigné ni par Rennes Métropole.</footer>
+</main>
+</body>
+</html>

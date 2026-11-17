@@ -1,0 +1,17 @@
+:root { --bg: #F6F3EC; --surface: #FFFDF8; --text: #23302B; --muted: #4B5852; --primary: #2F6B4F; --accent: #1F5F8B; }
+@media (prefers-color-scheme: dark) { :root { --bg: #131B17; --surface: #1C2621; --text: #E8EEE9; --muted: #B9C4BD; --primary: #93D2B0; --accent: #9DCAF0; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.logo { font-weight: 800; font-size: 26px; text-decoration: none; color: var(--primary); }
+.logo span { color: var(--accent); }
+nav a { color: var(--primary); margin-left: 12px; }
+nav a:first-child { margin-left: 0; }
+h1 { font-size: 30px; line-height: 1.2; margin-top: 32px; }
+h2 { font-size: 21px; margin-top: 32px; color: var(--primary); }
+.card { background: var(--surface); border-radius: 24px; padding: 20px 24px; margin: 20px 0; }
+.muted { color: var(--muted); font-size: 15px; }
+a { color: var(--primary); }
+code { font-size: 15px; overflow-wrap: anywhere; }
+footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
